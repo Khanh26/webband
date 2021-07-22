@@ -1,0 +1,66 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Thứ tự
+1 - vị trí
+2 - kích thước
+3 - màu sắc
+4 - kiểu dáng(kiểu chữ tròn vuông ....)
+*/
+
+/* 
+- Làm từ trên xuóng duối 
+- Từ tổng quan đến chi tiết
+*/
+#main {
+
+}
+
+#header {
+    height: 50px;
+    background-color: black;
+}
+
+#nav {
+
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#nav li a {
+    color: #FFFF;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: black;
+    background-color: #cccc;  
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
