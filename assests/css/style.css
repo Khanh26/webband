@@ -24,8 +24,17 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50px;
     background-color: black;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
 }
 
 #nav,.subnav {
@@ -70,6 +79,10 @@ html {
     display: inline-block;
 }
 
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
 #nav li:hover .subnav {
     display: block;
 }
@@ -80,10 +93,49 @@ html {
     background-color: #cccc;  
 }
 
+#header .search-btn {
+    float: right;
+    padding: 0px 22px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #ffff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+/* CSS Slider */
 
 #slider {
+    /* margin-top: 50px; */
+    position: relative;
+    padding-top: 50%;
+    background: url('/assests/img/sliders/slider1.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#slider .text-description {
 
 }
+
 
 #content {
 
