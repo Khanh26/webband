@@ -28,30 +28,58 @@ html {
     background-color: black;
 }
 
-#nav {
+#nav,.subnav {
+    list-style-type: none;
+}
 
+#nav > li {
+    display: inline-block;
 }
 
 #nav li {
-    display: inline-block;
+    position: relative;
 }
 
 #nav .subnav {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+
+#nav .subnav a {
+    display: inherit;
+    min-width: 60px;
+    padding: 0 16px;
+    line-height: 38px;
+    color: black;
+    
+}
+
+#nav > li > a {
+    color: #FFFF;
+    text-transform: uppercase;
 }
 
 #nav li a {
-    color: #FFFF;
     text-decoration: none;
     line-height: 50px;
     padding: 0 24px;
     display: inline-block;
 }
 
-#nav li:hover a {
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
     color: black;
     background-color: #cccc;  
 }
+
 
 #slider {
 
