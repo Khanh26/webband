@@ -115,7 +115,7 @@ html {
     /* margin-top: 50px; */
     position: relative;
     padding-top: 50%;
-    background: url('/assests/img/sliders/slider1.jpg') top center / cover no-repeat;
+    background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -124,6 +124,7 @@ html {
     left: 50%;
     transform: translate(-50%);
     text-align: center;
+    color: white;
 }
 
 #slider .text-heading {
@@ -133,12 +134,43 @@ html {
 }
 
 #slider .text-description {
-
+    font-size: 15px;
 }
 
 
 #content {
 
+}
+
+#content .content-section {
+    padding: 80px 120px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px 0 30px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+#content .section-sub-heading {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+#content .about-text {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
 }
 
 #footer {
