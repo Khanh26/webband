@@ -115,6 +115,9 @@ html {
     /* margin-top: 50px; */
     position: relative;
     padding-top: 50%;
+    /* Khi lên github sẽ như sau:*/
+    /* background: url('/webband/assests/img/sliders/slider2.jpg') top center / cover no-repeat; */
+    /* Lúc bình thường: */
     background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat;
 }
 
