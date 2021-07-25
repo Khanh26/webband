@@ -19,6 +19,29 @@ html {
 - Làm từ trên xuóng duối 
 - Từ tổng quan đến chi tiết
 */
+/* common */
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: calc(100%/3);
+}
 
 .clear {
     clear: both;
@@ -28,6 +51,11 @@ html {
     color: white !important;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+/* main */
 #main {
 
 }
@@ -188,13 +216,6 @@ html {
 
 #content .members-list {
     margin-top: 50px;
-    overflow: hidden;
-}
-
-#content .member-item {
-    float: left;
-    width: calc(100%/3);
-    text-align: center;
 }
 
 #content .member-name {
@@ -248,33 +269,47 @@ html {
 /* Place */
 
 .places-list {
-
-}
-
-.place-item {
-
+    margin-top: 32px;
+    padding-bottom: 32px;
 }
 
 .place-img {
+    width: 100%;
+    display: block;
+}
 
+.place-img:hover {
+    opacity: 0.6;
 }
 
 .place-body {
-
+    background-color: #ffff;
+    padding: 16px;
+    font-size: 15px;
 }
 
 .place-heading {
-
+    font-size: 15px;
+    font-weight: 550;
 }
 
 .place-time {
-
+    margin-top: 15px;
+    color: #757575;
 }
 
 .place-buy-btn {
+    text-decoration: none;
+    color: #ffff;
+    background-color: black;
+    padding: 11px 16px;
+    margin-top: 15px;
+    display: inline-block;
+}
+/* đang css contact  */
+.contact-content {
 
 }
-
 
 #footer {
 
