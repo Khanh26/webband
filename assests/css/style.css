@@ -89,7 +89,7 @@ html {
     display: inline-block;
 }
 
-#nav,.subnav {
+#nav .subnav {
     list-style-type: none;
 }
 
@@ -164,7 +164,7 @@ html {
 /* CSS Slider */
 
 #slider {
-    /* margin-top: 50px; */
+    margin-top: 50px;
     position: relative;
     padding-top: 50%;
     /* Khi lên github sẽ như sau:*/
@@ -200,8 +200,11 @@ html {
 #content .content-section {
     padding: 80px 0px 120px;
     width: 1080px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #content .section-heading {
