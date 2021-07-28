@@ -14,7 +14,7 @@
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <li><a href="#slider">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#theband">Band</a></li>
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -192,10 +192,17 @@
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
         for (var i = 0; i < menuItems.length; i++) {
             var menuItem = menuItems[i];
-            menuItem.onclick = function() {
-                header.style.height = null;
+            menuItem.onclick = function(event) {
+                var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(!isParenMenu) {
+                    header.style.height = null;
+                } else {
+                    event.preventDefault();
+                }
             }
         }
+
+
     </script>
 </body>
 </html>

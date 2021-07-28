@@ -129,7 +129,7 @@ html {
     text-decoration: none;
     line-height: 50px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
 #nav .nav-arrow-down {
@@ -145,10 +145,18 @@ html {
     color: black;
     background-color: #cccc;  
 }
-#header .mobile-menu-btn,
+
 #header .search-btn {
     float: right;
     padding: 0px 22px;
+}
+
+#header .mobile-menu-btn {
+    float: right;
+    padding: 0px 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header .mobile-menu-btn:hover {
@@ -293,9 +301,6 @@ html {
     margin-top: -3px;
 }
 
-/*  dang code csss phan nay */
-/* Place */
-
 .places-list {
     margin-top: 32px;
 }
@@ -339,7 +344,6 @@ html {
     background-color: #cccc; 
 }
 
-/* đang css contact  */
 .contact-content {
     margin-top: 48px;
     line-height: 1.5;
