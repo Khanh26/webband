@@ -165,36 +165,5 @@
             <p class="copyright">Powered by <a href="https://www.w3schools.com/">www.w3schools.com</a></p>
         </div>
     </div>
-
-    <script>
-        var header = document.getElementById('header');
-        var menu = document.getElementById('mobile-menu');
-        var headerHeight = header.clientHeight;
-
-        // dong mo mobile menu 
-        menu.onclick = function() {
-            var isOpen = header.clientHeight === headerHeight;
-            if(isOpen) {
-                header.style.height = 'auto';
-            } else {
-                header.style.height = null;
-            }
-
-        }
-
-        // dong khi chon menu
-        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-        for (var i = 0; i < menuItems.length; i++) {
-            var menuItem = menuItems[i];
-            menuItem.onclick = function(event) {
-                var isParenMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
-                if(!isParenMenu) {
-                    header.style.height = null;
-                } else {
-                    event.preventDefault();
-                }
-            }
-        }
-    </script>
 </body>
 </html>

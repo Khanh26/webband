@@ -150,23 +150,6 @@ html {
     padding: 0px 22px;
 }
 
-
-#header .mobile-menu-btn {
-    float: right;
-    padding: 0px 22px;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#header .mobile-menu-btn:hover {
-    background-color:#cccc;
-}
-
-#header .mobile-menu-btn:hover .menu-icon {
-    color: black;
-}
-
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
