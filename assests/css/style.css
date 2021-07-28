@@ -83,6 +83,7 @@ html {
     height: 50px;
     background-color: black;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -144,10 +145,18 @@ html {
     color: black;
     background-color: #cccc;  
 }
-
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0px 22px;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color:#cccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: black;
 }
 
 #header .search-btn:hover {
@@ -155,6 +164,7 @@ html {
     cursor: pointer;
 }
 
+#header .menu-icon,
 #header .search-icon {
     color: #ffff;
     font-size: 20px;
