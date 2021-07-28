@@ -71,9 +71,6 @@ html {
 }
 
 /* main */
-#main {
-
-}
 
 #header {
     position: fixed;
@@ -212,11 +209,6 @@ html {
 
 #slider .text-description {
     font-size: 15px;
-}
-
-
-#content {
-
 }
 
 #content .content-section {
