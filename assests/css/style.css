@@ -83,7 +83,6 @@ html {
     height: 50px;
     background-color: black;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -151,6 +150,7 @@ html {
     padding: 0px 22px;
 }
 
+<<<<<<< HEAD
 #header .mobile-menu-btn {
     float: right;
     padding: 0px 22px;
@@ -167,12 +167,13 @@ html {
     color: black;
 }
 
+=======
+>>>>>>> parent of 9f703a3 (css menu mobile)
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
 }
 
-#header .menu-icon,
 #header .search-icon {
     color: #ffff;
     font-size: 20px;

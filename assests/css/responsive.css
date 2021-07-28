@@ -13,6 +13,7 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+<<<<<<< HEAD
     #nav {
         display: block;
     }
@@ -27,4 +28,7 @@
     #header .search-btn {
         display: none;
     }
+=======
+    
+>>>>>>> parent of 9f703a3 (css menu mobile)
 }
