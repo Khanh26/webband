@@ -150,7 +150,7 @@ html {
     padding: 0px 22px;
 }
 
-<<<<<<< HEAD
+
 #header .mobile-menu-btn {
     float: right;
     padding: 0px 22px;
@@ -167,8 +167,6 @@ html {
     color: black;
 }
 
-=======
->>>>>>> parent of 9f703a3 (css menu mobile)
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
@@ -187,7 +185,7 @@ html {
     position: relative;
     padding-top: 50%;
     /* Khi lên github sẽ như sau:*/
-    background: url('/webband/assests/img/sliders/slider2.jpg') top center / cover no-repeat;
+    background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat;
     /* Lúc bình thường: */
     /* background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat; */
 }
