@@ -40,6 +40,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .col {
     float: left;
     padding-left: 8px;
@@ -188,7 +192,7 @@ html {
     position: relative;
     padding-top: 50%;
     /* Khi lên github sẽ như sau:*/
-    background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat;
+    background: url('../img/sliders/slider2.jpg') top center / cover no-repeat;
     /* Lúc bình thường: */
     /* background: url('/assests/img/sliders/slider2.jpg') top center / cover no-repeat; */
 }
