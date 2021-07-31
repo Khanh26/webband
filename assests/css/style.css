@@ -80,7 +80,6 @@ html {
     height: 50px;
     background-color: black;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -151,6 +150,7 @@ html {
     padding: 0px 22px;
     top: 0;
     right: 0;
+    cursor: pointer;
 }
 
 #header .menu-icon {
@@ -162,6 +162,7 @@ html {
     color: #333333;
     background-color: #cccc;
 }
+
 
 /* ENd Responsive mobile */
 #header .search-btn {
