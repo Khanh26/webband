@@ -343,6 +343,7 @@ html {
 .place-buy-btn:hover {
     color: black;
     background-color: #cccc; 
+    cursor: pointer;
 }
 
 .contact-content {
@@ -426,4 +427,129 @@ html {
 
 #footer .copyright a:hover {
     color: rgba(0, 0, 0, 0.4);
+}
+/* Modal */
+.open {
+    display: flex;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open {
+    display: flex;
+}
+
+
+.modal .modal-container{
+    background-color: #ffff;
+    width: 589px;
+    max-width: calc(100%-32px);
+    position: relative;
+    animation: modalFaceIn ease 0.5s;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    padding: 6px;
+    color: #fff;
+}
+
+.modal-close:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+header.modal-header {
+    width: 589px;
+    height: 156px;
+    text-align: center;
+    line-height: 156px;
+    text-transform: uppercase;
+    color: #ffff;
+    background-color: #333;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.modal-body {
+    padding: 40px 50px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #BDBDBD;
+}
+
+.modal-body-form {
+    margin-bottom: 16px;
+}
+
+label.modal-label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+input.modal-input {
+    width: 100%;
+    padding: 6px 12px;
+    outline: 0;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+input.modal-input:focus {
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+button#buy-ticket {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #Fff;
+}
+
+button#buy-ticket:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+p.modal-help {
+    text-align: right;
+    padding: 10px 20px;
+    color: #BDBDBD;
+    font-style: italic;
+}
+
+a.text-a {
+    text-decoration: none;
+    color: blue;
+}
+
+a.text-a:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes modalFaceIn {
+    from {
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

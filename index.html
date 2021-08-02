@@ -100,7 +100,7 @@
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Friday 27 November 2015</p>
-                                <a href="#" class="place-buy-btn s-full-width s-text-center">Buy tickets</a>
+                                <button class="place-buy-btn s-full-width s-text-center js-buy-ticket">Buy tickets</button>
                             </div>
                         </div>
 
@@ -109,7 +109,7 @@
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Saturday 28 November 2015</p>
-                                <a href="#" class="place-buy-btn s-full-width s-text-center">Buy tickets</a>
+                                <button class="place-buy-btn s-full-width s-text-center js-buy-ticket">Buy tickets</button>
                             </div>
                         </div>
 
@@ -118,7 +118,7 @@
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sunday 29 November 2015</p>
-                                <a href="#" class="place-buy-btn s-full-width s-text-center">Buy tickets</a>
+                                <button class="place-buy-btn s-full-width s-text-center js-buy-ticket">Buy tickets</button>
                             </div>
                         </div>
                     </div>
@@ -175,6 +175,51 @@
             <p class="copyright">Powered by <a href="https://www.w3schools.com/">www.w3schools.com</a></p>
         </div>
     </div>
+
+    <!-- Begin: Modal -->
+    <div class="modal js-modal">
+        <div class="modal-container js-modalContainer">
+            <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+
+            <header class="modal-header">
+                <i class="ti-bag"></i>
+                Tickets
+            </header>
+            
+            <div class="modal-body">
+                <div class="modal-body-form">
+                    <label for="" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input type="text" class="modal-input" placeholder="How many?" required>
+                </div>
+                
+                <div class="modal-body-form">
+                    <label for="" class="modal-label">
+                        <i class="ti-user"></i>
+                        Send to
+                    </label>
+                    <input type="email" class="modal-input" placeholder="Enter email..." required>
+                </div>
+                
+                <button id="buy-ticket">
+                    Pay
+                    <i class="ti-check"></i>
+                </button>
+            </div>
+            <hr>
+            <footer class="modal-footer">
+                <p class="modal-help">
+                    Need <a href="" class="text-a">help?</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+    <!--End: Modal  -->
     <script src="./assests/js/responsive.js"></script>
+    <script src="./assests/js/buyTicket.js"></script>
 </body>
 </html>
