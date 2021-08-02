@@ -456,6 +456,7 @@ html {
     position: relative;
     animation: modalFaceIn ease 0.5s;
     min-height: 200px;
+    max-width: 90%;
 }
 
 .modal-close {
