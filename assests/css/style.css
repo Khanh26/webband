@@ -453,9 +453,9 @@ html {
 .modal .modal-container{
     background-color: #ffff;
     width: 589px;
-    max-width: calc(100%-32px);
     position: relative;
     animation: modalFaceIn ease 0.5s;
+    min-height: 200px;
 }
 
 .modal-close {
@@ -473,8 +473,7 @@ html {
 }
 
 header.modal-header {
-    width: 589px;
-    height: 156px;
+    width: 100%;
     text-align: center;
     line-height: 156px;
     text-transform: uppercase;
